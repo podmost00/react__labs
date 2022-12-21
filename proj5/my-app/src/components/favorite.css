@@ -1,0 +1,19 @@
+.ico{
+    width: 20px;
+    height: 20px;
+}
+
+.myGrid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    height: 100%;
+    align-content: center;
+    overflow: hidden;
+}
+
+.myCard img{
+    object-fit: contain;
+    width: 100%;
+    height: 200px;
+}
